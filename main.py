@@ -9,28 +9,6 @@ def home():
 
 @app.route('/main')
 def main():
-
-    food = [
-        {
-            "name":"Salad",
-            "price":5
-        },
-
-        {
-            "name":"Pizza",
-            "price":13
-        },
-
-        {
-            "name":"Club Sandwiches",
-            "price":9
-        },
-
-        {
-            "name":"Pasta",
-            "price":11
-        },
-    ]
     return render_template("main.html", food=food)
 
 if __name__ == "__main__":
