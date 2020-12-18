@@ -11,7 +11,5 @@ def home():
 def main():
     return render_template("main.html", food=food)
 
-
-
 if __name__ == "__main__":
     app.run(debug=True, port='3000', host='0.0.0.0')
