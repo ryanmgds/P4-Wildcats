@@ -8,12 +8,20 @@ https://docs.google.com/presentation/d/1WbDlE76uLshpmA7ZbrHV9rIuo4aS21t0JmVEED3F
 # Scrum Board
 https://github.com/ryanmgds/P4-Wildcats/projects/1
 
-# Big Ticket Improvements (dated)
+# Scrum Master Grading
+Goals completed:Landing Page, Search bar, and Subscription
 
-Ryan-
+Grade: 16/20
 
-Bryce-
+# Individual evidence
+ryan- https://github.com/ryanmgds
 
-Colin-
+gavin-
 
-Gavin-
+bryce-
+
+colin-
+
+# Link to code
+https://docs.google.com/document/d/1amgMCfIOF15KkTLkaaNIdsCSgEegO7KMqrVKuV2QaCE/edit?usp=sharing 
+
