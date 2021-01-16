@@ -16,11 +16,11 @@ Grade: 16/20
 # Individual evidence
 ryan- https://github.com/ryanmgds
 
-gavin-
+gavin- https://github.com/gavintheriault1
 
-bryce-
+bryce- https://github.com/mrmadman33
 
-colin-
+colin- https://github.com/colinktran
 
 # Link to code
 https://docs.google.com/document/d/1amgMCfIOF15KkTLkaaNIdsCSgEegO7KMqrVKuV2QaCE/edit?usp=sharing 
