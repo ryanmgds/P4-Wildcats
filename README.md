@@ -11,7 +11,15 @@ https://github.com/ryanmgds/P4-Wildcats/projects/1
 # Scrum Master Grading
 Goals completed:Landing Page, Search bar, and Subscription
 
-Grade: 16/20
+Grades: 
+
+Bryce-18/20, Landing page, search bar, deployment
+
+Ryan-17/20, landing page, search bar, & quiz corrections
+
+Gavin-17/20, subscription
+
+Colin-17/20, subscription & landing page
 
 # Individual evidence
 ryan- https://github.com/ryanmgds
