@@ -6,17 +6,15 @@ import smtplib
 # from email.MIMEBase import MIMEBase
 # from email import encoders
 
-names = ['Charles','Sabrina','Brianna',
-         'Tommy', 'Jared', 'Brent',
-         'Derek', 'Chase', 'Bryce']
+names = [ ]
 emails = ['charles.abadie@gmail.com','sabrina.criner@gmail.com','brianna.abadie@gmail.com',
           'tommyjcriner@gmail.com','jmodugno26@gmail.com','modugnob88@gmail.com',
           'dmod129@gmail.com', 'chase.modugno@gmail.com','bmodugno1000@gmail.com']
 
-gmail_user = 'jmodugno26@gmail.com'
+gmail_user = 'bmodugno1000@gmail.com'
 gmail_password = ''
 sent_from = gmail_user
-subject = 'SECRET SANTA ABADIE/CRINER/MODUGNO 2020'
+subject = 'COVID INFORMATION 2021 - CALIFORNIA'
 
 def secret_santa(names):
     my_list = names
@@ -60,16 +58,14 @@ ss_result = secret_santa(names)
 final = zip(ss_result,emails)
 
 for x in final:
-    fromaddr = "jmodugno26@gmail.com"
+    fromaddr = "bmodugno1000@gmail.com"
     to = x[1]
     # msg = MIMEMultipart()
     # msg['From'] = fromaddr
     # msg['To'] = toaddr
-    # msg['Subject'] = "SECRET EMAIL FOR SECRET SANTA!"
+    # msg['Subject'] = "Covid Subscription"
 
-    body1 = "Keep it secret, keep it safe.\n" + str(x[0][0]) + ", your secret santa is......\n\n " +str(x[0][1]) + "!!!"
-    body2 = "\n\n We will get together on the 24th through duo! \n\n There is a $20 limit this year.\n You shouldn't get the same person as last year or your spouce this year.\n\n Happy Secret Santa-ing!"
-    body = body1+body2
+    body = "California Total Cases 2,816,969!"
     email_text = 'Subject: {}\n\n{}'.format(subject, body)
     # email_text = """\
     # From: %s

@@ -269,29 +269,31 @@
 </div>
 
 <!-- Container (More info Section) -->
-<div id="contact" class="container-fluid bg-grey">
+  <div id="contact" class="container-fluid bg-grey">
 
-  <form action="action_page.php">
+    <form action="action_page.php">
 
-    <div class="container">
-      <h2>Subscribe</h2>
-      <p>Subscribe for the latest Covid-19 news in your state!
-      - SUBSCRIPTION FUNCTION STILL UNDER CONSTRUCTION</p>
-    </div>
+      <div class="container">
+        <h2>Subscribe</h2>
+        <p>Subscribe for the latest Covid-19 news in your state!</p>
+      </div>
 
-    <div class="container" style="background-color:dark grey">
-      <input type="text" placeholder="Name" name="name" required>
       <input type="text" placeholder="Email address" name="mail" required>
-      <input type="text" placeholder="State" name="state" required>
-      <label>
-        <input type="checkbox" checked="checked" name="subscribe"> Allow Daily Covid Reports?
-      </label>
-    </div>
+      <input type="button" id='script' name="scriptbutton" value=" Subscribe " onclick="goPython()">
 
-    <div class="container">
-      <input type="submit" value="Subscribe">
-    </div>
-  </form>
+      <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+      <script>
+        function goPython(){
+            $.ajax({
+              url: "MYSCRIPT.py",
+             context: document.body
+            }).done(function() {
+             alert('finished python script');;
+            });
+        }
+    </script>
+    </form>
 
   </div>
 
