@@ -34,3 +34,11 @@ def datatable():
 
 if __name__ == "__main__":
     app.run(debug=True, port='5000', host='127.0.0.1')
+
+# @app.route('/scrubbing')
+# def scrubbing():
+#       url = 'https://covid.cdc.gov/covid-data-tracker/#cases_totalcases'
+#       r = requests.get(url)
+#       soup = BeautifulSoup(r.text, 'html.parser')
+#       print(soup)
+#       return render_template("home.html")

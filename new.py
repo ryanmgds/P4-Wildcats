@@ -37,3 +37,4 @@ def covid19():
     #return countries
     """
     return render_template("restapi/covid19.html", menus=menus, world=world,  countries=countries)
+
