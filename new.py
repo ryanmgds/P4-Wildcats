@@ -3,7 +3,7 @@ from restapi import restapi_bp
 from models.lessons import menus
 import requests
 
-
+#empty commit
 
 @restapi_bp.route('/covid19',  methods=['GET', 'POST'])
 def covid19():
