@@ -220,24 +220,17 @@
 <div class="jumbotron text-center">
   <h1>Covid Database</h1>
   <p>2020 - State Analytics </p>
-  <form>
-    <div class="input-group">
-      <input class="form-control" size="50" placeholder="State - FUNCTION STILL UNDER CONSTRUCTION">
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-danger">Search</button>
-      </div>
-    </div>
-  </form>
 </div>
 
 <!-- Container (About Section) -->
-<div id="about" class="container-fluid">
+<div id="about" class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-8">
       <h2>Our mission</h2><br>
-      This website is designed to make it easier for you to find information on COVID-19 for your state. We want to keep everyone informed and safe!
+      Our goal is to inform the public on Covid-19 cases within many areas around the world. Our website contains
+      a database which updates, as well as a subscription option for email reminder in your country.</button>
       <p></p>
-      <br><button class="btn btn-default btn-lg">Get in Touch</button>
+<!--      <br><button class="btn btn-default btn-lg">Get in Touch</button>-->
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-signal logo"></span>
@@ -245,32 +238,94 @@
   </div>
 </div>
 
-<div class="container-fluid bg-grey">
-  <div class="row">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo slideanim"></span>
-    </div>
-    <div class="col-sm-8">
-
-    </div>
-  </div>
-</div>
 
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid text-center">
   <h2 class="text-center">Covid Cases by State</h2>
-  <div class="data-table-container" style="margin-top: 10px;">
-    <div id="us-cases-table-toggle" class="table-toggle us-cases-table-toggle" tabindex="0" aria-labelledby="us-cases-table-title">
-      <div class="table-toggle-icon"><i id="us-cases-table-header-icon" class="fas fa-minus"></i></div>
-    </div>
-    <div id="us-cases-table-container" class="data-table" tabindex="0" aria-label="Total Cases by State/Territory table">
-      <div id="topOfTable" class="scrolling-table-container">
-        <table id="us-cases-table" class="expanded-data-table"><thead><tr><th style="width: 25%;" scope="col" tabindex="0" id="name-th" class="table-sort-header data-table-header">State/Territory<i id="name-icon" class="sort icon"></i></th><th style="width: 25%;" scope="col" tabindex="0" id="tot_cases-th" class="table-sort-header data-table-header number-sort sorted">Total Cases<i id="tot_cases-icon" class="sort icon"></i></th><th style="width: 25%;" scope="col" tabindex="0" id="conf_cases-th" class="table-sort-header data-table-header number-sort">Confirmed<i id="conf_cases-icon" class="sort icon"></i></th><th style="width: 25%;" scope="col" tabindex="0" id="prob_cases-th" class="table-sort-header data-table-header number-sort">Probable<i id="prob_cases-icon" class="sort icon"></i></th></tr></thead><tbody>
-        <tr><td tabindex="0" aria-label="State/Territory California" style="cursor:pointer" class="stateCol">California</td><td tabindex="0" aria-label="California Total Cases 2816969">2,816,969</td><td tabindex="0" aria-label="California Confirmed Not Available">N/A</td><td tabindex="0" aria-label="California Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Texas" style="cursor:pointer" class="stateCol">Texas</td><td tabindex="0" aria-label="Texas Total Cases 2045699">2,045,699</td><td tabindex="0" aria-label="Texas Confirmed Not Available">N/A</td><td tabindex="0" aria-label="Texas Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Florida" style="cursor:pointer" class="stateCol">Florida</td><td tabindex="0" aria-label="Florida Total Cases 1503529">1,503,529</td><td tabindex="0" aria-label="Florida Confirmed Not Available">N/A</td><td tabindex="0" aria-label="Florida Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Illinois" style="cursor:pointer" class="stateCol">Illinois</td><td tabindex="0" aria-label="Illinois Total Cases 1052682">1,052,682</td><td tabindex="0" aria-label="Illinois Confirmed 1052682">1,052,682</td><td tabindex="0" aria-label="Illinois Probable 0">0</td></tr><tr><td tabindex="0" aria-label="State/Territory Ohio" style="cursor:pointer" class="stateCol">Ohio</td><td tabindex="0" aria-label="Ohio Total Cases 807293">807,293</td><td tabindex="0" aria-label="Ohio Confirmed 714168">714,168</td><td tabindex="0" aria-label="Ohio Probable 93125">93,125</td></tr><tr><td tabindex="0" aria-label="State/Territory Georgia" style="cursor:pointer" class="stateCol">Georgia</td><td tabindex="0" aria-label="Georgia Total Cases 791324">791,324</td><td tabindex="0" aria-label="Georgia Confirmed 660720">660,720</td><td tabindex="0" aria-label="Georgia Probable 130604">130,604</td></tr><tr><td tabindex="0" aria-label="State/Territory Pennsylvania" style="cursor:pointer" class="stateCol">Pennsylvania</td><td tabindex="0" aria-label="Pennsylvania Total Cases 748564">748,564</td><td tabindex="0" aria-label="Pennsylvania Confirmed 661700">661,700</td><td tabindex="0" aria-label="Pennsylvania Probable 86864">86,864</td></tr><tr><td tabindex="0" aria-label="State/Territory New York*" style="cursor:pointer" class="stateCol">New York*</td><td tabindex="0" aria-label="New York* Total Cases 682976">682,976</td><td tabindex="0" aria-label="New York* Confirmed Not Available">N/A</td><td tabindex="0" aria-label="New York* Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Tennessee" style="cursor:pointer" class="stateCol">Tennessee</td><td tabindex="0" aria-label="Tennessee Total Cases 670482">670,482</td><td tabindex="0" aria-label="Tennessee Confirmed 576406">576,406</td><td tabindex="0" aria-label="Tennessee Probable 94076">94,076</td></tr><tr><td tabindex="0" aria-label="State/Territory North Carolina" style="cursor:pointer" class="stateCol">North Carolina</td><td tabindex="0" aria-label="North Carolina Total Cases 650926">650,926</td><td tabindex="0" aria-label="North Carolina Confirmed 589265">589,265</td><td tabindex="0" aria-label="North Carolina Probable 61661">61,661</td></tr><tr><td tabindex="0" aria-label="State/Territory Arizona" style="cursor:pointer" class="stateCol">Arizona</td><td tabindex="0" aria-label="Arizona Total Cases 649040">649,040</td><td tabindex="0" aria-label="Arizona Confirmed 613302">613,302</td><td tabindex="0" aria-label="Arizona Probable 35738">35,738</td></tr><tr><td tabindex="0" aria-label="State/Territory New Jersey" style="cursor:pointer" class="stateCol">New Jersey</td><td tabindex="0" aria-label="New Jersey Total Cases 609721">609,721</td><td tabindex="0" aria-label="New Jersey Confirmed 549840">549,840</td><td tabindex="0" aria-label="New Jersey Probable 59881">59,881</td></tr><tr><td tabindex="0" aria-label="State/Territory Indiana" style="cursor:pointer" class="stateCol">Indiana</td><td tabindex="0" aria-label="Indiana Total Cases 578494">578,494</td><td tabindex="0" aria-label="Indiana Confirmed Not Available">N/A</td><td tabindex="0" aria-label="Indiana Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Michigan" style="cursor:pointer" class="stateCol">Michigan</td><td tabindex="0" aria-label="Michigan Total Cases 576573">576,573</td><td tabindex="0" aria-label="Michigan Confirmed 531004">531,004</td><td tabindex="0" aria-label="Michigan Probable 45569">45,569</td></tr><tr><td tabindex="0" aria-label="State/Territory Wisconsin" style="cursor:pointer" class="stateCol">Wisconsin</td><td tabindex="0" aria-label="Wisconsin Total Cases 561160">561,160</td><td tabindex="0" aria-label="Wisconsin Confirmed 515982">515,982</td><td tabindex="0" aria-label="Wisconsin Probable 45178">45,178</td></tr><tr><td tabindex="0" aria-label="State/Territory New York City*" style="cursor:pointer" class="stateCol">New York City*</td><td tabindex="0" aria-label="New York City* Total Cases 519438">519,438</td><td tabindex="0" aria-label="New York City* Confirmed 450662">450,662</td><td tabindex="0" aria-label="New York City* Probable 68776">68,776</td></tr><tr><td tabindex="0" aria-label="State/Territory Massachusetts" style="cursor:pointer" class="stateCol">Massachusetts</td><td tabindex="0" aria-label="Massachusetts Total Cases 443193">443,193</td><td tabindex="0" aria-label="Massachusetts Confirmed 433297">433,297</td><td tabindex="0" aria-label="Massachusetts Probable 9896">9,896</td></tr><tr><td tabindex="0" aria-label="State/Territory Minnesota" style="cursor:pointer" class="stateCol">Minnesota</td><td tabindex="0" aria-label="Minnesota Total Cases 441935">441,935</td><td tabindex="0" aria-label="Minnesota Confirmed Not Available">N/A</td><td tabindex="0" aria-label="Minnesota Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Missouri" style="cursor:pointer" class="stateCol">Missouri</td><td tabindex="0" aria-label="Missouri Total Cases 431957">431,957</td><td tabindex="0" aria-label="Missouri Confirmed Not Available">N/A</td><td tabindex="0" aria-label="Missouri Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Virginia" style="cursor:pointer" class="stateCol">Virginia</td><td tabindex="0" aria-label="Virginia Total Cases 422634">422,634</td><td tabindex="0" aria-label="Virginia Confirmed 346917">346,917</td><td tabindex="0" aria-label="Virginia Probable 75717">75,717</td></tr><tr><td tabindex="0" aria-label="State/Territory Alabama" style="cursor:pointer" class="stateCol">Alabama</td><td tabindex="0" aria-label="Alabama Total Cases 414583">414,583</td><td tabindex="0" aria-label="Alabama Confirmed 329731">329,731</td><td tabindex="0" aria-label="Alabama Probable 84852">84,852</td></tr><tr><td tabindex="0" aria-label="State/Territory South Carolina" style="cursor:pointer" class="stateCol">South Carolina</td><td tabindex="0" aria-label="South Carolina Total Cases 371180">371,180</td><td tabindex="0" aria-label="South Carolina Confirmed 337845">337,845</td><td tabindex="0" aria-label="South Carolina Probable 33335">33,335</td></tr><tr><td tabindex="0" aria-label="State/Territory Colorado" style="cursor:pointer" class="stateCol">Colorado</td><td tabindex="0" aria-label="Colorado Total Cases 369177">369,177</td><td tabindex="0" aria-label="Colorado Confirmed 352308">352,308</td><td tabindex="0" aria-label="Colorado Probable 16869">16,869</td></tr><tr><td tabindex="0" aria-label="State/Territory Louisiana" style="cursor:pointer" class="stateCol">Louisiana</td><td tabindex="0" aria-label="Louisiana Total Cases 361148">361,148</td><td tabindex="0" aria-label="Louisiana Confirmed Not Available">N/A</td><td tabindex="0" aria-label="Louisiana Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Oklahoma" style="cursor:pointer" class="stateCol">Oklahoma</td><td tabindex="0" aria-label="Oklahoma Total Cases 352900">352,900</td><td tabindex="0" aria-label="Oklahoma Confirmed 279142">279,142</td><td tabindex="0" aria-label="Oklahoma Probable 73758">73,758</td></tr><tr><td tabindex="0" aria-label="State/Territory Maryland" style="cursor:pointer" class="stateCol">Maryland</td><td tabindex="0" aria-label="Maryland Total Cases 320739">320,739</td><td tabindex="0" aria-label="Maryland Confirmed Not Available">N/A</td><td tabindex="0" aria-label="Maryland Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Utah" style="cursor:pointer" class="stateCol">Utah</td><td tabindex="0" aria-label="Utah Total Cases 317559">317,559</td><td tabindex="0" aria-label="Utah Confirmed 317559">317,559</td><td tabindex="0" aria-label="Utah Probable 0">0</td></tr><tr><td tabindex="0" aria-label="State/Territory Kentucky" style="cursor:pointer" class="stateCol">Kentucky</td><td tabindex="0" aria-label="Kentucky Total Cases 317345">317,345</td><td tabindex="0" aria-label="Kentucky Confirmed 252694">252,694</td><td tabindex="0" aria-label="Kentucky Probable 64651">64,651</td></tr><tr><td tabindex="0" aria-label="State/Territory Iowa" style="cursor:pointer" class="stateCol">Iowa</td><td tabindex="0" aria-label="Iowa Total Cases 301824">301,824</td><td tabindex="0" aria-label="Iowa Confirmed Not Available">N/A</td><td tabindex="0" aria-label="Iowa Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Washington" style="cursor:pointer" class="stateCol">Washington</td><td tabindex="0" aria-label="Washington Total Cases 283777">283,777</td><td tabindex="0" aria-label="Washington Confirmed Not Available">N/A</td><td tabindex="0" aria-label="Washington Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Arkansas" style="cursor:pointer" class="stateCol">Arkansas</td><td tabindex="0" aria-label="Arkansas Total Cases 264511">264,511</td><td tabindex="0" aria-label="Arkansas Confirmed Not Available">N/A</td><td tabindex="0" aria-label="Arkansas Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Nevada" style="cursor:pointer" class="stateCol">Nevada</td><td tabindex="0" aria-label="Nevada Total Cases 256172">256,172</td><td tabindex="0" aria-label="Nevada Confirmed Not Available">N/A</td><td tabindex="0" aria-label="Nevada Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Kansas" style="cursor:pointer" class="stateCol">Kansas</td><td tabindex="0" aria-label="Kansas Total Cases 252041">252,041</td><td tabindex="0" aria-label="Kansas Confirmed 209339">209,339</td><td tabindex="0" aria-label="Kansas Probable 42702">42,702</td></tr><tr><td tabindex="0" aria-label="State/Territory Mississippi" style="cursor:pointer" class="stateCol">Mississippi</td><td tabindex="0" aria-label="Mississippi Total Cases 248189">248,189</td><td tabindex="0" aria-label="Mississippi Confirmed 161797">161,797</td><td tabindex="0" aria-label="Mississippi Probable 86392">86,392</td></tr><tr><td tabindex="0" aria-label="State/Territory Connecticut" style="cursor:pointer" class="stateCol">Connecticut</td><td tabindex="0" aria-label="Connecticut Total Cases 221544">221,544</td><td tabindex="0" aria-label="Connecticut Confirmed 208489">208,489</td><td tabindex="0" aria-label="Connecticut Probable 13055">13,055</td></tr><tr><td tabindex="0" aria-label="State/Territory Nebraska" style="cursor:pointer" class="stateCol">Nebraska</td><td tabindex="0" aria-label="Nebraska Total Cases 180131">180,131</td><td tabindex="0" aria-label="Nebraska Confirmed Not Available">N/A</td><td tabindex="0" aria-label="Nebraska Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory New Mexico" style="cursor:pointer" class="stateCol">New Mexico</td><td tabindex="0" aria-label="New Mexico Total Cases 160543">160,543</td><td tabindex="0" aria-label="New Mexico Confirmed Not Available">N/A</td><td tabindex="0" aria-label="New Mexico Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Idaho" style="cursor:pointer" class="stateCol">Idaho</td><td tabindex="0" aria-label="Idaho Total Cases 153358">153,358</td><td tabindex="0" aria-label="Idaho Confirmed 125751">125,751</td><td tabindex="0" aria-label="Idaho Probable 27607">27,607</td></tr><tr><td tabindex="0" aria-label="State/Territory Oregon" style="cursor:pointer" class="stateCol">Oregon</td><td tabindex="0" aria-label="Oregon Total Cases 130246">130,246</td><td tabindex="0" aria-label="Oregon Confirmed 128526">128,526</td><td tabindex="0" aria-label="Oregon Probable 1720">1,720</td></tr><tr><td tabindex="0" aria-label="State/Territory West Virginia" style="cursor:pointer" class="stateCol">West Virginia</td><td tabindex="0" aria-label="West Virginia Total Cases 105219">105,219</td><td tabindex="0" aria-label="West Virginia Confirmed 84569">84,569</td><td tabindex="0" aria-label="West Virginia Probable 20650">20,650</td></tr><tr><td tabindex="0" aria-label="State/Territory South Dakota" style="cursor:pointer" class="stateCol">South Dakota</td><td tabindex="0" aria-label="South Dakota Total Cases 104512">104,512</td><td tabindex="0" aria-label="South Dakota Confirmed Not Available">N/A</td><td tabindex="0" aria-label="South Dakota Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Rhode Island" style="cursor:pointer" class="stateCol">Rhode Island</td><td tabindex="0" aria-label="Rhode Island Total Cases 103386">103,386</td><td tabindex="0" aria-label="Rhode Island Confirmed Not Available">N/A</td><td tabindex="0" aria-label="Rhode Island Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory North Dakota" style="cursor:pointer" class="stateCol">North Dakota</td><td tabindex="0" aria-label="North Dakota Total Cases 95599">95,599</td><td tabindex="0" aria-label="North Dakota Confirmed 91837">91,837</td><td tabindex="0" aria-label="North Dakota Probable 3762">3,762</td></tr><tr><td tabindex="0" aria-label="State/Territory Montana" style="cursor:pointer" class="stateCol">Montana</td><td tabindex="0" aria-label="Montana Total Cases 88110">88,110</td><td tabindex="0" aria-label="Montana Confirmed 88110">88,110</td><td tabindex="0" aria-label="Montana Probable 0">0</td></tr><tr><td tabindex="0" aria-label="State/Territory Puerto Rico" style="cursor:pointer" class="stateCol">Puerto Rico</td><td tabindex="0" aria-label="Puerto Rico Total Cases 85954">85,954</td><td tabindex="0" aria-label="Puerto Rico Confirmed 80111">80,111</td><td tabindex="0" aria-label="Puerto Rico Probable 5843">5,843</td></tr><tr><td tabindex="0" aria-label="State/Territory Delaware" style="cursor:pointer" class="stateCol">Delaware</td><td tabindex="0" aria-label="Delaware Total Cases 68065">68,065</td><td tabindex="0" aria-label="Delaware Confirmed 65031">65,031</td><td tabindex="0" aria-label="Delaware Probable 3034">3,034</td></tr><tr><td tabindex="0" aria-label="State/Territory New Hampshire" style="cursor:pointer" class="stateCol">New Hampshire</td><td tabindex="0" aria-label="New Hampshire Total Cases 54778">54,778</td><td tabindex="0" aria-label="New Hampshire Confirmed Not Available">N/A</td><td tabindex="0" aria-label="New Hampshire Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Alaska" style="cursor:pointer" class="stateCol">Alaska</td><td tabindex="0" aria-label="Alaska Total Cases 49535">49,535</td><td tabindex="0" aria-label="Alaska Confirmed Not Available">N/A</td><td tabindex="0" aria-label="Alaska Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Wyoming" style="cursor:pointer" class="stateCol">Wyoming</td><td tabindex="0" aria-label="Wyoming Total Cases 48701">48,701</td><td tabindex="0" aria-label="Wyoming Confirmed 41628">41,628</td><td tabindex="0" aria-label="Wyoming Probable 7073">7,073</td></tr><tr><td tabindex="0" aria-label="State/Territory District of Columbia" style="cursor:pointer" class="stateCol">District of Columbia</td><td tabindex="0" aria-label="District of Columbia Total Cases 32820">32,820</td><td tabindex="0" aria-label="District of Columbia Confirmed Not Available">N/A</td><td tabindex="0" aria-label="District of Columbia Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Maine" style="cursor:pointer" class="stateCol">Maine</td><td tabindex="0" aria-label="Maine Total Cases 32779">32,779</td><td tabindex="0" aria-label="Maine Confirmed 26921">26,921</td><td tabindex="0" aria-label="Maine Probable 5858">5,858</td></tr><tr><td tabindex="0" aria-label="State/Territory Hawaii" style="cursor:pointer" class="stateCol">Hawaii</td><td tabindex="0" aria-label="Hawaii Total Cases 23305">23,305</td><td tabindex="0" aria-label="Hawaii Confirmed Not Available">N/A</td><td tabindex="0" aria-label="Hawaii Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Vermont" style="cursor:pointer" class="stateCol">Vermont</td><td tabindex="0" aria-label="Vermont Total Cases 9573">9,573</td><td tabindex="0" aria-label="Vermont Confirmed Not Available">N/A</td><td tabindex="0" aria-label="Vermont Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Guam" style="cursor:pointer" class="stateCol">Guam</td><td tabindex="0" aria-label="Guam Total Cases 7457">7,457</td><td tabindex="0" aria-label="Guam Confirmed Not Available">N/A</td><td tabindex="0" aria-label="Guam Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Virgin Islands" style="cursor:pointer" class="stateCol">Virgin Islands</td><td tabindex="0" aria-label="Virgin Islands Total Cases 2218">2,218</td><td tabindex="0" aria-label="Virgin Islands Confirmed Not Available">N/A</td><td tabindex="0" aria-label="Virgin Islands Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Northern Mariana Islands" style="cursor:pointer" class="stateCol">Northern Mariana Islands</td><td tabindex="0" aria-label="Northern Mariana Islands Total Cases 128">128</td><td tabindex="0" aria-label="Northern Mariana Islands Confirmed 128">128</td><td tabindex="0" aria-label="Northern Mariana Islands Probable 0">0</td></tr><tr><td tabindex="0" aria-label="State/Territory Republic of Marshall Islands" style="cursor:pointer" class="stateCol">Republic of Marshall Islands</td><td tabindex="0" aria-label="Republic of Marshall Islands Total Cases 4">4</td><td tabindex="0" aria-label="Republic of Marshall Islands Confirmed 4">4</td><td tabindex="0" aria-label="Republic of Marshall Islands Probable 0">0</td></tr><tr><td tabindex="0" aria-label="State/Territory American Samoa" style="cursor:pointer" class="stateCol">American Samoa</td><td tabindex="0" aria-label="American Samoa Total Cases 3">3</td><td tabindex="0" aria-label="American Samoa Confirmed Not Available">N/A</td><td tabindex="0" aria-label="American Samoa Probable Not Available">N/A</td></tr><tr><td tabindex="0" aria-label="State/Territory Federated States of Micronesia" style="cursor:pointer" class="stateCol">Federated States of Micronesia</td><td tabindex="0" aria-label="Federated States of Micronesia Total Cases 1">1</td><td tabindex="0" aria-label="Federated States of Micronesia Confirmed 1">1</td><td tabindex="0" aria-label="Federated States of Micronesia Probable 0">0</td></tr><tr><td tabindex="0" aria-label="State/Territory Palau" style="cursor:pointer" class="stateCol">Palau</td><td tabindex="0" aria-label="Palau Total Cases 0">0</td><td tabindex="0" aria-label="Palau Confirmed Not Available">N/A</td><td tabindex="0" aria-label="Palau Probable Not Available">N/A</td></tr></tbody></table>
-      </div>
-    </div>
 
-</div>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+              .dropbtn {
+                background-color: #FFFFFF ;
+                color: black;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+                cursor: pointer;
+              }
+
+              .dropbtn:hover, .dropbtn:focus {
+                background-color: #DFE1E1  ;
+              }
+
+              .dropdown {
+                position: relative;
+                display: inline-block;
+              }
+
+              .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                overflow: auto;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+              }
+
+              .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+              }
+
+              .dropdown a:hover {background-color: #ddd;}
+
+              .show {display: block;}
+              </style>
+  </head>
+  <body>
+
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn" style="text-align: left; color:black; font-size: 25px" >Live Data Table</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="/healthylunches" style ="font-size:15px">Click Here!</a>
+    </div>
+  </div>
+
+  <script>
+              /* When the user clicks on the button,
+              toggle between hiding and showing the dropdown content */
+              function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+              }
+
+              // Close the dropdown if the user clicks outside of it
+              window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                  var dropdowns = document.getElementsByClassName("dropdown-content");
+                  var i;
+                  for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                      openDropdown.classList.remove('show');
+                    }
+                  }
+                }
+              }
+              </script>
+
+
+<br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 
 <!-- Container (More info Section) -->
   <div id="contact" class="container-fluid bg-grey">
@@ -289,13 +344,8 @@
 
 
     </form>
-
   </div>
-
-
-
 </div>
-
 <!-- Image of location/map -->
 <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
 
@@ -303,12 +353,6 @@
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-
-</footer>
-
-<script>
-
-</script>
 
 </body>
 </html>

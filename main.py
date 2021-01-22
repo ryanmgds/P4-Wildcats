@@ -12,7 +12,7 @@ def home():
 @app.route('/email', methods = ['POST'])
 def email():
     email = request.form['email']
-    email_text = 'Subject: {}\n\n{}'.format("California Total Cases", 'California Total Cases 2,816,969')
+    email_text = 'Subject: {}\n\n{}'.format("United States Data", 'United States Total Cases 2,816,969; Total Deaths 2,080,972; Current Active Cases 25,361,201 ')
     server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
     server.ehlo()
     server.login('wildcatsp4@gmail.com', 'MrMadman33')
@@ -20,6 +20,27 @@ def email():
     server.close()
     print ("email sent to:", email)
     return render_template("home.html")
+
+@app.route('/healthylunches')
+def datatable():
+    lunches = [
+        {
+            "name":"Chicken Parmesian",
+            "price":10
+        },
+
+        {
+            "name":"Chicken Stir Fry",
+            "price":15
+        },
+    ]
+
+    if request.method == 'POST':
+        lunches.append({
+            "name":request.form["name"],
+            "price":request.form["price"]
+        })
+    return render_template("healthylunches.html", lunches=lunches)
 
 @app.route('/main')
 def main():
