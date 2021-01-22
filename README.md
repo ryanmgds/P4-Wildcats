@@ -19,7 +19,7 @@ Ryan-17/20, landing page, search bar, & quiz corrections
 
 Gavin-17/20, subscription
 
-Colin-17/20, subscription & landing page
+Colin-17/20, landing page, presentation
 
 # Individual evidence
 ryan- https://github.com/ryanmgds
