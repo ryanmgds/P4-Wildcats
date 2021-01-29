@@ -191,6 +191,20 @@
       font-size: 150px;
     }
   }
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #f4511e;} /* Orange */
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -210,8 +224,13 @@
         <li><a href="#about">MISSION</a></li>
         <li><a href="#services">DATA</a></li>
         <!-- <li><a href="#portfolio">PORTFOLIO</a></li>
-        <li><a href="#pricing">PRICING</a></li> -->!
+        <li><a href="#pricing">PRICING</a></li> -->
+
         <li><a href="#contact">SUBSCRIBE</a></li>
+          <form action="/easteregg" method = "post">
+            <button class="button button1"></button>
+          </form>
+
       </ul>
     </div>
   </div>
@@ -321,7 +340,7 @@
               </script>
 
 
-<br>
+  <br>
   <br>
   <br>
   <br>
@@ -349,11 +368,11 @@
   </div>
 </div>
 <!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
 
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
+
   </a>
 
 </body>

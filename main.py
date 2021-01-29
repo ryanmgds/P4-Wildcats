@@ -12,7 +12,7 @@ def home():
 @app.route('/email', methods = ['POST'])
 def email():
     email = request.form['email']
-    email_text = 'Subject: {}\n\n{}'.format("United States Data", 'United States Total Cases 2,816,969; Total Deaths 2,080,972; Current Active Cases 25,361,201 ')
+    email_text = 'Subject: {}\n\n{}'.format("United States Data", 'United States Total Cases 24,983,892; Total Deaths 2,080,972; Current Active Cases 25,361,201 ')
     server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
     server.ehlo()
     server.login('wildcatsp4@gmail.com', 'MrMadman33')
@@ -20,6 +20,11 @@ def email():
     server.close()
     print ("email sent to:", email)
     return render_template("home.html")
+
+@app.route('/easteregg', methods = ['POST'])
+def easteregg_bp():
+    return render_template("easteregg.html")
+
 
 @app.route('/healthylunches')
 def datatable():
