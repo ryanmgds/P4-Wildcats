@@ -36,29 +36,33 @@ Link to new statistics pulled here:
 Still in progress, attempted deployment on RPI many times, have failed. Will try out AWS.
 
 # 1/15 Individual + Scrum Grading
-Ryan Moghaddas:
 
-  -Individual Grading: 4/5
+## Team Score
+/10
 
-  -Scrum Master Grading: 15/15
+## Presentation Score
+/5
+
+## Individual Scores
+Ryan Moghaddas: 
+/10
+
+total: /25
 
 Bryce Modguno:
+/10
 
-  -Individual Grading: /5
-
-  -Scrum Master Grading: /15
+total: /25
 
 Colin Tran:
+/10
 
-  -Individual Grading: /5
-
-  -Scrum Master Grading: /15
+total: /25
 
 Gavin Theriault:
+/10
 
-  -Individual Grading: /5
-
-  -Scrum Master Grading: /15
+total: /25
 
 ## P4-Wildcats Creators
 Colin Tran, Ryan Moghaddas, Bryce Modugno, Gavin Theriault
