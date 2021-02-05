@@ -12,8 +12,8 @@ Our easter egg is accesible through the navigation bar as a hidden button, but c
 # Big Ticket Items
 This information can also be found on our scrum board: https://github.com/ryanmgds/P4-Wildcats/projects/1 
 
-## Algorithms 
-Code can be found on this link:
+## Survey Table 
+Ryan worked on this. You can find it in the navbar, and you can fill out a survey report, rating your experience on our website. You also have the option to leave your contact information. You can also find a shortcut to our easter egg. Link to code:
 
 ## Login Session For Easter Egg
 The code that shows the login session for the easter egg can be found on this link: 
