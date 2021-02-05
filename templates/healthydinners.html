@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<!-- EXTEND (base.html), homesite/base.html is template for all rendered pages in the project -->
+{% extends "base.html" %}
+
+<!-- STYLE (in <head>), style enhancements for page -->
+{% block style %}
+<style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        td, th {
+            border: 1px solid #f4511e;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+        background-color: #f4511e;
+        }
+    </style>
+{% endblock %}
+
+<!-- SCRIPT (in <head>), script enhancements for page -->
+{% block script %}
+<script>
+        <!-- Password verification and error message -->
+        function verifyPassword() {
+            const psw =  document.getElementById("password").value;
+
+            if (psw.length < 5 || psw.length > 0) {
+                document.getElementById("pswError").innerHTML = "Period must be between 0 and 5 characters";
+                return false;
+            }
+        }
+    </script>
+{% endblock %}
+
+<!-- CONTENT (in <body>), content for this page -->
+{% block content %}
+
+
+
+<!-- Sample table rendering and filtering link -->
+<div class="jumbotron jumbotron-fluid" style="height: 30%; ">
+
+    <!-- title -->
+    <div class="row justify-content-center">
+        <div class="col-10" style="text-align: center;">
+            <h1>Covid Database Survey!</h1>
+        </div>
+    </div>
+
+    <!-- backend filtering actions -->
+    <div class="row courses-buttons justify-content-center">
+        <table id="links">
+            <tr>
+                <td><a href={{url_for('.easteregg_bp')}}>Full Table </a></td>
+                <td><a href={{url_for('.base')}}>E-Mails only</a></td>
+                <td><a href={{url_for('.home')}}>Phones only</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Table display,  "table" variable and rows with "dictionary elements" are expected -->
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Password</th>
+            <th>Emails</th>
+            <th>Phone Numbers</th>
+        </tr>
+        <!-- Loop through rows in table -->
+        {% for row in table %}
+        <!--
+        Prepare table for display
+            caution: phone number needs "~" format step to force type to string
+        -->
+        {% set pn = "" ~ row['phone_numbers'] %}
+        {% set pnf = "(" ~ pn[0:3] ~ ")" ~ pn[3:6] ~ "-" ~ pn[6:10] %}
+        <tr>
+            <th>{{ row['id'] }}</th>
+            <th>{{ row['name'] }}</th>
+            <th>{{ row['password'] }}</th>
+            <th>{{ row['emails'] }}</th>
+            <th>{{ pnf }}</th>
+        </tr>
+        {% endfor %}
+    </table>
+
+</div>
+
+<!-- Create action, input and "Add" a new row to table  -->
+<div class="jumbotron jumbotron-fluid" style="height: 30%; ">
+
+    <div class="row justify-content-center">
+        <div class="col-10" style="text-align: center;">
+            <h1>Survey Table!</h1>
+        </div>
+    </div>
+
+    <div class="row courses-buttons justify-content-center">
+
+        <form method="POST" ID="easteregg_bp" onsubmit ="return verifyPassword()" action={{url_for('easteregg_bp')}} >
+            <table>
+                <tr>
+                    <th><label for="username">Name</label></th>
+                    <th><label for="password">State</label></th>
+                    <th><label for="email">Date</label></th>
+                    <th><label for="phone_number">Rating</label></th>
+                </tr>
+                <tr>
+                    <th><input type="text" name="username" id="username" required></th>
+                    <th><input type="password" name="password" id="password" required></th>
+                    <th><input type="email" name="email" id="email" placeholder="Ex. 2/4/2020"></th>
+                    <th><input type="tel" name="phone_number" id="phone_number" pattern="[0-9]{1}" placeholder="From 1-5 Stars"></th>
+                    <th><input type="submit" value="Submit Survey!"></th>
+                </tr>
+            </table>
+            <p id="pswError"></p>
+        </form>
+
+    </div>
+</div>
+
+<!-- Read action, filter table on page to single row -->
+<div class="jumbotron jumbotron-fluid" style="height: 30%; ">
+
+    <div class="row justify-content-center">
+        <div class="col-10" style="text-align: center;">
+            <h1>Shortcut to easter egg!</h1>
+        </div>
+    </div>
+
+    <div class="row courses-buttons justify-content-center">
+
+        <form method="POST" ID="easteregg_bp" action={{url_for('easteregg_bp')}} >
+            <table id="links">
+                <tr><th><label for="ID">ID</label></th></tr>
+                <tr><td><select name="ID" id="ID">
+                    <optgroup label="userid">
+                        {% for row in table %}
+                        <option label="{{ row['id'] }}">{{ row['id'] }}</option>
+                        {% endfor %}
+                    </optgroup>
+                </select></td>
+                    <td><input type="submit" value="Filter"></td>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+</div>
+
+<!-- Update action, change selected rows email and phone number -->
+<div class="jumbotron jumbotron-fluid" style="height: 0%; ">
+
+    <div class="row justify-content-center">
+        <div class="col-10" style="text-align: center;">
+            <h1>Leave Contact Information Down Below!</h1>
+        </div>
+    </div>
+
+    <div class="row courses-buttons justify-content-center">
+
+        <form method="POST" ID="home" action={{url_for('home')}} >
+            <table id="links">
+                <tr>
+                    <th><label for="ID">ID</label></th>
+                    <th><label for="email">Email</label></th>
+                    <th><label for="phone_number">Phone Number</label></th>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="ID" id="ID">
+                            <optgroup label="userid">
+                                {% for row in table %}
+                                <option label="{{ row['id'] }}">{{ row['id'] }}</option>
+                                {% endfor %}
+                            </optgroup>
+                        </select>
+                    </td>
+                    <th><input type="email" name="email" id="email" placeholder="abc@xyz.com"></th>
+                    <th><input type="tel" name="phone_number" id="phone_number" pattern="[0-9]{10}" placeholder="1234567890"></th>
+                    <th><input type="submit" value="Update"></th>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+</div>
+
+<!-- Delete action, delete selected row from table -->
+<div class="jumbotron jumbotron-fluid" style="height: 30%; ">
+
+    <div class="row justify-content-center">
+        <div class="col-10" style="text-align: center;">
+            <h1>CRUD: Delete</h1>
+        </div>
+    </div>
+
+    <div class="row courses-buttons justify-content-center">
+
+        <form method="POST" ID="home" action={{url_for('home')}} >
+            <table id="links">
+                <tr><th><label for="ID">ID</label></th></tr>
+                <tr><td><select name="ID" id="ID">
+                    <optgroup label="userid">
+                        {% for row in table %}
+                        <option label="{{ row['id'] }}">{{ row['id'] }}</option>
+                        {% endfor %}
+                    </optgroup>
+                </select>
+                </td><td><input type="submit" value="Delete"></td></tr>
+            </table>
+        </form>
+
+    </div>
+</div>
+
+<!-- Display CRUD code to support Tech Talks -->
+
+<!-- Front End HTML, shows this file -->
+
+
+from sqlalchemy import func
+from models import db, Users, Emails, PhoneNumbers
+
+
+
+
+
+
+{% endblock %}

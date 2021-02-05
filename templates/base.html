@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<title>{{Title}}</title>
+<head>
+    <img src="../static/smwrld.jpg" class="hidesmwrld" style="visibility: hidden; position: absolute" id="smwrld"/>
+    {% block head %}
+    <link rel="stylesheet" href="style.css" />
+    {% endblock %}
+</head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+        </div>
+
+            </ul>
+            {% if logged_in == 0: %}
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/login/" style="color:dodgerblue" >Login</a></li>
+                <li><a href="/signup/" style="color:dodgerblue" >Sign Up</a></li>
+            </ul>
+            {% endif %}
+            {% if logged_in == 1: %}
+            <ul class="nav navbar-nav navbar-right">
+                <li><a style="color:white">Logged in as: {{loginUsername}}</a></li>
+                <li><a href="/sign_out/user" style="color:dodgerblue">Sign Out</a></li>
+            </ul>
+            {% endif %}
+        </div>
+    </div>
+</nav>
+
+<style>
+      body{
+        background-image: url('cool-backgrond.jpg');
+        background-repeat: no-repeat;
+        animation: bg-animation 10s infinite;
+
+        }
+
+        @-webkit-keyframes bg-animation {
+
+        }
+
+        @keyframes bg-animation {
+            0% {
+                background-color: #f57e42;
+            }
+            25% {
+                background-color: #1f5d9c;
+            }
+            50% {
+                background-color: #781416;
+            }
+            75% {
+                background-color: #60d66c;
+            }
+            100% {
+                background-color: #EC9F20;
+            }
+
+        }
+  </style>
+<div id="content">{% block content %}{% endblock %}</div>
+<div id="footer">
+    {% block footer %}
+    &copy; Copyright 2008 by <a href="http://domain.invalid/">you</a>.
+    {% endblock %}
+</div>
+</body>
+</html>

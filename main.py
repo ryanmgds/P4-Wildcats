@@ -25,6 +25,9 @@ def email():
 def easteregg_bp():
     return render_template("easteregg.html")
 
+@app.route('/healthydinners', methods = ['POST'])
+def base():
+    return render_template("healthydinners.html")
 
 @app.route('/healthylunches')
 def datatable():
@@ -46,6 +49,7 @@ def datatable():
             "price":request.form["price"]
         })
     return render_template("healthylunches.html", lunches=lunches)
+
 
 @app.route('/main')
 def main():
