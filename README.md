@@ -46,22 +46,18 @@ Still in progress, attempted deployment on RPI many times, have failed. Will try
 ## Individual Scores
 Ryan Moghaddas: 
 10/10
-
 total: /25
 
 Bryce Modguno:
 10/10
-
 total: /25
 
 Colin Tran:
 /10
-
 total: /25
 
 Gavin Theriault:
 /10
-
 total: /25
 
 ## P4-Wildcats Creators
