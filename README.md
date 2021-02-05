@@ -1,6 +1,3 @@
-## P4-Wildcats 
-Colin Tran, Ryan Moghaddas, Bryce Modugno, Gavin Theriault
-
 # Covid DataBase
 This is our trimester 2 project for AP CS Principles. We aspire to create an easy platform for users to get information on COVID-19.
 
@@ -43,6 +40,9 @@ Colin Tran:
 Gavin Theriault:
 -Individual Grading
 -Scrum Master Grading
+
+## P4-Wildcats Creators
+Colin Tran, Ryan Moghaddas, Bryce Modugno, Gavin Theriault
 
 
 
