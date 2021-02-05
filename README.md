@@ -1,10 +1,10 @@
 ## P4-Wildcats 
 Colin Tran, Ryan Moghaddas, Bryce Modugno, Gavin Theriault
 
-## Covid DataBase
+# Covid DataBase
 This is our trimester 2 project for AP CS Principles. We aspire to create an easy platform for users to get information on COVID-19.
 
-# How to run our Covid Database
+## How to run our Covid Database
 RPI / AWS in progress at the moment.
 
 As of now, you can clone project onto your own machine, and run it from intellij.
