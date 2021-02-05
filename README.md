@@ -27,7 +27,7 @@ This information can also be found on our scrum board: https://github.com/ryanmg
 Ryan worked on this. You can find it in the navbar, and you can fill out a survey report, rating your experience on our website. You also have the option to leave your contact information. Contains data filtering, however this portion is still needs some work. Link to code for tables: https://github.com/ryanmgds/P4-Wildcats/blob/main/templates/healthydinners.html , link to code that contains format of page: https://github.com/ryanmgds/P4-Wildcats/blob/main/templates/base.html
 
 ## Login Session For Easter Egg
-The code that shows the login session for the easter egg can be found on this link: 
+Bryce worked on this. You can find this in the navbar. So far, easter egg location has been made. Login session is in progress at the moment. Code to easter egg: https://github.com/ryanmgds/P4-Wildcats/blob/main/templates/easteregg.html 
 
 ## Data Curation
 Link to new statistics pulled here:
