@@ -35,7 +35,7 @@ Link to new statistics pulled here:
 ## Raspberry pi deployment / AWS??
 Still in progress, attempted deployment on RPI many times, have failed. Will try out AWS.
 
-# 1/15 Individual + Scrum Grading
+# 1/15 Scrum Grading
 
 ## Team Score
 /10
