@@ -27,27 +27,27 @@ Still in progress, attempted deployment on RPI many times, have failed. Will try
 # 1/15 Individual + Scrum Grading
 Ryan Moghaddas:
 
--Individual Grading
+  -Individual Grading: /5
 
--Scrum Master Grading
+  -Scrum Master Grading: /15
 
 Bryce Modguno:
 
--Individual Grading
+  -Individual Grading: /5
 
--Scrum Master Grading
+  -Scrum Master Grading: /15
 
 Colin Tran:
 
--Individual Grading
+  -Individual Grading: /5
 
--Scrum Master Grading
+  -Scrum Master Grading: /15
 
 Gavin Theriault:
 
--Individual Grading
+  -Individual Grading: /5
 
--Scrum Master Grading
+  -Scrum Master Grading: /15
 
 ## P4-Wildcats Creators
 Colin Tran, Ryan Moghaddas, Bryce Modugno, Gavin Theriault
