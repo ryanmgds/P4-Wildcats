@@ -30,7 +30,7 @@ Ryan worked on this. You can find it in the navbar, and you can fill out a surve
 Bryce worked on this. You can find this in the navbar. So far, easter egg location has been made. Login session is in progress at the moment. Code to easter egg: https://github.com/ryanmgds/P4-Wildcats/blob/main/templates/easteregg.html 
 
 ## Data Curation
-Link to new statistics pulled here:
+In progress...
 
 ## Raspberry pi deployment / AWS??
 Still in progress, attempted deployment on RPI many times, have failed. Will try out AWS.
