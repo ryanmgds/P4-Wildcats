@@ -38,19 +38,19 @@ Still in progress, attempted deployment on RPI many times, have failed. Will try
 # 1/15 Scrum Grading
 
 ## Team Score
-/10
+9/10
 
 ## Presentation Score
 /5
 
 ## Individual Scores
 Ryan Moghaddas: 
-/10
+10/10
 
 total: /25
 
 Bryce Modguno:
-/10
+10/10
 
 total: /25
 
