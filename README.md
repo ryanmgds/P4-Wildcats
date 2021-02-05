@@ -26,19 +26,27 @@ Still in progress, attempted deployment on RPI many times, have failed. Will try
 
 # 1/15 Individual + Scrum Grading
 Ryan Moghaddas:
+
 -Individual Grading
+
 -Scrum Master Grading
 
 Bryce Modguno:
+
 -Individual Grading
+
 -Scrum Master Grading
 
 Colin Tran:
+
 -Individual Grading
+
 -Scrum Master Grading
 
 Gavin Theriault:
+
 -Individual Grading
+
 -Scrum Master Grading
 
 ## P4-Wildcats Creators
