@@ -38,27 +38,27 @@ Still in progress, attempted deployment on RPI many times, have failed. Will try
 # 1/15 Scrum Grading
 
 ## Team Score
-9/10
+8/10
 
 ## Presentation Score
-/5
+4/5
 
 ## Individual Scores
 Ryan Moghaddas: 
 10/10,
-total: /25
+total: 22/25
 
 Bryce Modguno:
 10/10,
-total: /25
+total: 22/25
 
 Colin Tran:
-/10,
-total: /25
+8/10,
+total: 20/25
 
 Gavin Theriault:
-/10,
-total: /25
+7/10,
+total: 19/25
 
 ## P4-Wildcats Creators
 Colin Tran, Ryan Moghaddas, Bryce Modugno, Gavin Theriault
