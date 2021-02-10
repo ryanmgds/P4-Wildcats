@@ -30,7 +30,7 @@ Ryan worked on this. You can find it in the navbar, and you can fill out a surve
 Bryce worked on this. You can find this in the navbar. So far, easter egg location has been made. Login session is in progress at the moment. Code to easter egg: https://github.com/ryanmgds/P4-Wildcats/blob/main/templates/easteregg.html 
 
 ## Data Curation
-Link to new statistics pulled here:
+In progress...
 
 ## Raspberry pi deployment / AWS??
 Still in progress, attempted deployment on RPI many times, have failed. Will try out AWS.
@@ -38,27 +38,27 @@ Still in progress, attempted deployment on RPI many times, have failed. Will try
 # 1/15 Scrum Grading
 
 ## Team Score
-9/10
+8/10
 
 ## Presentation Score
-/5
+4/5
 
 ## Individual Scores
 Ryan Moghaddas: 
 10/10,
-total: /25
+total: 22/25
 
 Bryce Modguno:
 10/10,
-total: /25
+total: 22/25
 
 Colin Tran:
-/10,
-total: /25
+8/10,
+total: 20/25
 
 Gavin Theriault:
-/10,
-total: /25
+7/10,
+total: 19/25
 
 ## P4-Wildcats Creators
 Colin Tran, Ryan Moghaddas, Bryce Modugno, Gavin Theriault
