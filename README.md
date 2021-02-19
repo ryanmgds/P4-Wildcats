@@ -1,7 +1,7 @@
 # 15 pt review via readme week 2/16
 Ryan's ticket and link to code: Ticket- https://github.com/ryanmgds/P4-Wildcats/projects/1#card-54310235 Link to code- https://github.com/ryanmgds/P4-Wildcats/blob/main/templates/healthydinners.html
 
-Colin ticket and link to code:
+Colin ticket and link to code: https://github.com/ryanmgds/P4-Wildcats/projects/1#card-54299329 - worked on deployment of website through AWS this week 
 
 Gavin ticket and link to code: https://github.com/ryanmgds/P4-Wildcats/projects/1#card-54299329- focused on deployment of website this week 
 
