@@ -7,7 +7,7 @@ RPI / AWS in progress at the moment.
 As of now, you can clone project onto your own machine, and run it from intellij.
 
 # 15 pt review via readme week 2/16
-Ryan's ticket and link to code: Link to ticket, 
+Ryan's ticket and link to code: Ticket- https://github.com/ryanmgds/P4-Wildcats/projects/1#card-54310235 
 
 # Easter Egg
 Our easter egg is accesible through the navigation bar as a hidden button, but can change with future updates. Because website is not run off RPI / AWS yet, you can clone project and run project on your own machine. The easter egg can be found between the "mission" and "survey" buttons.
