@@ -1,5 +1,5 @@
 # 15 pt review via readme week 2/16
-Ryan's ticket and link to code: Ticket- https://github.com/ryanmgds/P4-Wildcats/projects/1#card-54310235 
+Ryan's ticket and link to code: Ticket- https://github.com/ryanmgds/P4-Wildcats/projects/1#card-54310235 Link to code- https://github.com/ryanmgds/P4-Wildcats/blob/main/templates/healthydinners.html
 
 # Covid DataBase
 This is our trimester 2 project for AP CS Principles. We aspire to create an easy platform for users to get information on COVID-19.
