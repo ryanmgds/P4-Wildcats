@@ -46,7 +46,7 @@ Bryce worked on this. You can find this in the navbar. So far, easter egg locati
 In progress...
 
 ## Raspberry pi deployment / AWS??
-Still in progress, attempted deployment on RPI many times, have failed. Will try out AWS.
+Colin and Gavin worked on this. The server is running on AWS through Colin's account. The website is accessable is now accessable by anyone on the internet.
 
 # 1/15 Scrum Grading
 
