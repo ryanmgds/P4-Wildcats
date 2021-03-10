@@ -12,22 +12,25 @@ Run using python run.py
 # College Board
 
 ## Big Idea 1 Creative Deployment
+Creativity is shown in our project through nice layout on home page and color changing background in survey table. Creating the navbar with a bootstrap template shows a creative and unique part of our project.
 
 ## Big Idea 2 Data
+We were able to pull data from a rest.api, which goes off data curation, which was a big aspect of our project. This was necessary as it allowed our website to contain the most accurate and most important statistics of covid.
 
 ## Big Idea 3 Algorithms and Programming
+List and dictionaries were used along with other functions in order to meet all required fundamentals. We used dictionaries in the backend of our data. We used bootstrap templates in the front end files to organize our webpage. HTML was also used throughout our whole project.
 
-## Big Idea 4 Computing Systems and Networks
+## Big idea 4 stems and Networks
+This is shown through our live website, hosted through AWS. This website can run anywhere. Runtime link:
 
 ## Big Idea 5 Impact of Computing
+We built our website with the intentions of spreading COVID-19 information to the public, not just for us 4. The virus has changed our entire world, and to stay safe, people need to stay informed. Our group understands the impact of computing by seeing how we can share information and statistics to the rest of the world with our web server.
 
-# Goals
-
-- Create login session that can interact with a SQL database
-
-- Pull from different websites (data curation), get more accurate data and new statistics that users will find useful
-
-- Allow users to access other reviews, and be able to rate off stars, not just inputting a number.
+# Complete Goals
+-live data table with statistics (ryan)
+-subscription option for users to get data (bryce)
+-survey option for users to rate website (ryan)
+-deployment on AWS (colin)
 
 
 
@@ -39,8 +42,19 @@ This information can be found on our scrum board: https://github.com/ryanmgds/P4
 # Techincals
 
 ## Survey Table (CRUD)
-Ryan worked on this. You can find it in the navbar, and you can fill out a survey report, rating your experience on our website. You also have the option to leave your contact information. Contains data filtering, however this portion is still needs some work. Link to code for tables: https://github.com/ryanmgds/P4-Wildcats/blob/main/templates/healthydinners.html , link to code that contains format of page: https://github.com/ryanmgds/P4-Wildcats/blob/main/templates/base.html
+You can find it in the navbar, and you can fill out a survey report, rating your experience on our website. You also have the option to leave your contact information. Contains data filtering, however this portion is still needs some work.
 
+## COVID-19 Statistics
+-data scraped using rapid.api
+-data is oriented into table
+-CSS used to style table and update button, to gather most accurate data
+
+## Home page
+-describes our intent with the website
+-contains css for better look
+
+## Subscription
+-user can input email, and output will be an email with covid data to that person
 
 
 # Individual and Class lectures
