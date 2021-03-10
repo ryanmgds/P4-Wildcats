@@ -28,8 +28,11 @@ Creating this website established a location for someone to be able to look at a
 
 # Complete Goals
 -live data table with statistics (ryan)
+
 -subscription option for users to get data (bryce)
+
 -survey option for users to rate website (ryan)
+
 -deployment on AWS (colin)
 
 
@@ -46,11 +49,14 @@ You can find it in the navbar, and you can fill out a survey report, rating your
 
 ## COVID-19 Statistics
 -data scraped using rapid.api
+
 -data is oriented into table
+
 -CSS used to style table and update button, to gather most accurate data
 
 ## Home page
 -describes our intent with the website
+
 -contains css for better look
 
 ## Subscription
