@@ -1,26 +1,25 @@
-# 15 pt review via readme week 2/16
-Ryan's ticket and link to code: Ticket- https://github.com/ryanmgds/P4-Wildcats/projects/1#card-54310235 Link to code- https://github.com/ryanmgds/P4-Wildcats/blob/main/templates/healthydinners.html
-
-Colin ticket and link to code: https://github.com/ryanmgds/P4-Wildcats/projects/1#card-54299329 - worked on deployment of website through AWS this week 
-
-Gavin ticket and link to code: https://github.com/ryanmgds/P4-Wildcats/projects/1#card-54299329- focused on deployment of website this week 
-
-Bryce ticket and link to code:
-
-
-
---------
 
 # Covid DataBase
 This is our trimester 2 project for AP CS Principles. We aspire to create an easy platform for users to get information on COVID-19.
 
 ## How to run our Covid Database
-RPI / AWS in progress at the moment.
+To access the website, visit _________ (the public IP address) OR clone it on your own machine:
 
-As of now, you can clone project onto your own machine, and run it from intellij.
+Install all necessary packages with pip install -r requirements.txt
 
-# Easter Egg
-Our easter egg is accesible through the navigation bar as a hidden button, but can change with future updates. Because website is not run off RPI / AWS yet, you can clone project and run project on your own machine. The easter egg can be found between the "mission" and "survey" buttons.
+Run using python run.py
+
+# College Board
+
+## Big Idea 1 Creative Deployment
+
+## Big Idea 2 Data
+
+## Big Idea 3 Algorithms and Programming
+
+## Big Idea 4 Computing Systems and Networks
+
+## Big Idea 5 Impact of Computing
 
 # Goals
 - Our biggest goal, that needs to be completed ASAP is the RPI / AWS deployment
@@ -34,46 +33,17 @@ Our easter egg is accesible through the navigation bar as a hidden button, but c
 
 
 # Big Ticket Items
-This information can also be found on our scrum board: https://github.com/ryanmgds/P4-Wildcats/projects/1 
+This information can be found on our scrum board: https://github.com/ryanmgds/P4-Wildcats/projects/1 
+
+
+
+# Techincals
 
 ## Survey Table (CRUD)
 Ryan worked on this. You can find it in the navbar, and you can fill out a survey report, rating your experience on our website. You also have the option to leave your contact information. Contains data filtering, however this portion is still needs some work. Link to code for tables: https://github.com/ryanmgds/P4-Wildcats/blob/main/templates/healthydinners.html , link to code that contains format of page: https://github.com/ryanmgds/P4-Wildcats/blob/main/templates/base.html
 
-## Login Session For Easter Egg
-Bryce worked on this. You can find this in the navbar. So far, easter egg location has been made. Login session is in progress at the moment. Code to easter egg: https://github.com/ryanmgds/P4-Wildcats/blob/main/templates/easteregg.html 
 
-## Data Curation
-In progress...
-
-## Raspberry pi deployment / AWS??
-Colin and Gavin worked on this. The server is running on AWS through Colin's account. The website is accessable is now accessable by anyone on the internet.
-
-# 1/15 Scrum Grading
-
-## Team Score
-8/10
-
-## Presentation Score
-4/5
-
-## Individual Scores
-Ryan Moghaddas: 
-10/10,
-total: 22/25
-
-Bryce Modguno:
-10/10,
-total: 22/25
-
-Colin Tran:
-8/10,
-total: 20/25
-
-Gavin Theriault:
-7/10,
-total: 19/25
-
-## P4-Wildcats Creators
+# P4-Wildcats Creators
 Colin Tran, Ryan Moghaddas, Bryce Modugno, Gavin Theriault
 
 
