@@ -12,19 +12,19 @@ Run using python run.py
 # College Board
 
 ## Big Idea 1 Creative Deployment
-Creativity is shown in our project through nice layout on home page and color changing background in survey table. Creating the navbar with a bootstrap template shows a creative and unique part of our project.
+The journey to deployment began with a failure to connect using a rasperry pi. We then used problem solving to attempt the process at multiple houses to determine that the Pi was broken. We then attempted a seperate server using an old computer, only to finally decide on using AWS to create a live website.
 
 ## Big Idea 2 Data
-We were able to pull data from a rest.api, which goes off data curation, which was a big aspect of our project. This was necessary as it allowed our website to contain the most accurate and most important statistics of covid.
+Data curation and live updating was the main idea for our webiste, which we completed by pulling a live covid-19 database from a website API. We then were able to prove the effectiveness of this by showing a "current time of update" counter which only updated if the API did.
 
 ## Big Idea 3 Algorithms and Programming
-List and dictionaries were used along with other functions in order to meet all required fundamentals. We used dictionaries in the backend of our data. We used bootstrap templates in the front end files to organize our webpage. HTML was also used throughout our whole project.
+Creating the website was a challenge that was achieved through html and python understanding. Creating the individual containers, changing color values, altering data, creating databases, creating blueprints, and networking was all tied together to create the website.
 
-## Big idea 4 stems and Networks
-This is shown through our live website, hosted through AWS. This website can run anywhere. Runtime link:
+## Big Idea 4 Computing Systems and Networks
+Through using a Simple Mail Transfer Protocol Client to communicate with python SMTP server, we were able to send emails to whoever interacts with the website via user input. The email contains information regarding COVID-19 data pertaining to the united states.
 
 ## Big Idea 5 Impact of Computing
-We built our website with the intentions of spreading COVID-19 information to the public, not just for us 4. The virus has changed our entire world, and to stay safe, people need to stay informed. Our group understands the impact of computing by seeing how we can share information and statistics to the rest of the world with our web server.
+Creating this website established a location for someone to be able to look at and recieve information that is genuinely valuable. As such, learning that computing can create opportunities and assist others is an incredibly valuable lesson.
 
 # Complete Goals
 -live data table with statistics (ryan)
