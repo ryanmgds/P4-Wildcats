@@ -22,7 +22,6 @@ Run using python run.py
 ## Big Idea 5 Impact of Computing
 
 # Goals
-- Our biggest goal, that needs to be completed ASAP is the RPI / AWS deployment
 
 - Create login session that can interact with a SQL database
 
